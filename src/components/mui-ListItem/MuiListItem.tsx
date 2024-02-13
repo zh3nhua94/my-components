@@ -7,7 +7,10 @@ import { Link } from "react-router-dom";
 
 const MuiListItem = ({ title, link }: { title: string; link: string }) => {
 	return (
-		<ListItem disablePadding>
+		<ListItem
+			disablePadding
+			divider
+		>
 			<ListItemButton>
 				<ListItemIcon>
 					<FolderIcon />

@@ -10,3 +10,14 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+.homeTitle {
+	background: linear-gradient(100deg, #7f4ec7 11.46%, #5594f1 42.58%, #58de98 50%, #5594f1 57.42%, #7f4ec7 88.54%) 100%/200%
+		100%;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-position: 100% center;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 50px 0;
+}

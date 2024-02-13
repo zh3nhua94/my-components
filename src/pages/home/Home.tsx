@@ -5,7 +5,7 @@ import MuiListItem from "../../components/mui-ListItem/MuiListItem";
 const Home = () => {
 	return (
 		<Box sx={{ width: "100%", maxWidth: 800, margin: "0 auto" }}>
-			<h1>My Components by Zen</h1>
+			<h1 className="homeTitle">My Components by Zen</h1>
 			<Box sx={{ width: "100%", bgcolor: "background.paper" }}>
 				<List>
 					<MuiListItem
