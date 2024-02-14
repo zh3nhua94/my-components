@@ -1,0 +1,19 @@
+.progressbar-outer {
+	background-color: rgb(233, 236, 239);
+	border: 1px solid #c5c5c5;
+	border-radius: 8px;
+	height: 30px;
+	overflow: hidden;
+}
+
+.progressbar-inner {
+	background-color: #53c28b;
+	color: #fff;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s ease-in;
+}

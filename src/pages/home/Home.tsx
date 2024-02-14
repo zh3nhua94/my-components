@@ -16,6 +16,14 @@ const Home = () => {
 						title={"Dark Mode"}
 						link={"/darkMode"}
 					/>
+					<MuiListItem
+						title={"Progress Bar"}
+						link={"/progress-bar"}
+					/>
+					<MuiListItem
+						title={"Progress Bar (Scroll)"}
+						link={"/progress-bar-scroll"}
+					/>
 				</List>
 			</Box>
 		</Box>
