@@ -18,6 +18,7 @@ const Pagination = () => {
 
 	return (
 		<>
+			<p style={{ textAlign: "center", color: "royalblue" }}>THE STYLING OF THE PAGINATION USES A BIT OF TAILWIND</p>
 			<PaginationTable posts={car} />
 		</>
 	);

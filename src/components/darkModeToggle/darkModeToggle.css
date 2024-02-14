@@ -1,0 +1,30 @@
+/* apply this .dark class to modify css on darkmode */
+.dark * {
+	color: white;
+	background-color: #212121;
+}
+
+.darkmode-toggle-container {
+	width: 42px;
+	height: 24px;
+	border-radius: 30px;
+	border: solid 1px #53c28b;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2px 4px;
+	position: relative;
+	cursor: pointer;
+}
+.darkmode-toggle-container .icon {
+	font-size: 12px;
+}
+
+.darkmode-toggle-container .ball {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background-color: #53c28b;
+	position: absolute;
+	transition: all 0.3s ease;
+}

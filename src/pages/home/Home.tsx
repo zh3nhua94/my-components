@@ -12,6 +12,10 @@ const Home = () => {
 						title={"Pagination"}
 						link={"/pagination"}
 					/>
+					<MuiListItem
+						title={"Dark Mode"}
+						link={"/darkMode"}
+					/>
 				</List>
 			</Box>
 		</Box>

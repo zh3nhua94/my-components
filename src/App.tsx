@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Pagination from "./pages/pagination/Pagination";
+import DarkModePage from "./pages/darkModeToggle/DarkModePage";
 
 function App() {
 	return (
@@ -13,6 +14,10 @@ function App() {
 				<Route
 					path="/pagination"
 					element={<Pagination />}
+				/>
+				<Route
+					path="/darkMode"
+					element={<DarkModePage />}
 				/>
 			</Routes>
 		</>
