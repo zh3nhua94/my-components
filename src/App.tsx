@@ -4,6 +4,7 @@ import Pagination from "./pages/pagination/Pagination";
 import DarkModePage from "./pages/darkModeToggle/DarkModePage";
 import ProgressBarScrollPage from "./pages/progressBar/ProgressBarScrollPage";
 import ProgressBarPage from "./pages/progressBar/ProgressBarPage";
+import LoadingSkeletonPage from "./pages/loadingSkeleton/LoadingSkeletonPage";
 
 function App() {
 	return (
@@ -28,6 +29,10 @@ function App() {
 				<Route
 					path="/progress-bar-scroll"
 					element={<ProgressBarScrollPage />}
+				/>
+				<Route
+					path="/loading-skeleton"
+					element={<LoadingSkeletonPage />}
 				/>
 			</Routes>
 		</>

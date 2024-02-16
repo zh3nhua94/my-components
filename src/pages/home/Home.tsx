@@ -24,6 +24,10 @@ const Home = () => {
 						title={"Progress Bar (Scroll)"}
 						link={"/progress-bar-scroll"}
 					/>
+					<MuiListItem
+						title={"Loading Skeleton"}
+						link={"/loading-skeleton"}
+					/>
 				</List>
 			</Box>
 		</Box>
