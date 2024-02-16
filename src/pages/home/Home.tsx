@@ -9,24 +9,24 @@ const Home = () => {
 			<Box sx={{ width: "100%", bgcolor: "background.paper" }}>
 				<List>
 					<MuiListItem
-						title={"Pagination"}
-						link={"/pagination"}
+						title={"Loading Skeleton"}
+						link={"/loading-skeleton"}
 					/>
 					<MuiListItem
 						title={"Dark Mode"}
 						link={"/darkMode"}
 					/>
 					<MuiListItem
-						title={"Progress Bar"}
-						link={"/progress-bar"}
+						title={"Pagination"}
+						link={"/pagination"}
 					/>
 					<MuiListItem
 						title={"Progress Bar (Scroll)"}
 						link={"/progress-bar-scroll"}
 					/>
 					<MuiListItem
-						title={"Loading Skeleton"}
-						link={"/loading-skeleton"}
+						title={"Progress Bar"}
+						link={"/progress-bar"}
 					/>
 				</List>
 			</Box>
