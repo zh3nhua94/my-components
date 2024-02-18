@@ -21,6 +21,10 @@ const Home = () => {
 						link={"/pagination"}
 					/>
 					<MuiListItem
+						title={"Infinite Scroll (Intersection Observer API)"}
+						link={"/infinite-scroll"}
+					/>
+					<MuiListItem
 						title={"Progress Bar (Scroll)"}
 						link={"/progress-bar-scroll"}
 					/>

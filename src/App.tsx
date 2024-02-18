@@ -5,6 +5,7 @@ import DarkModePage from "./pages/darkModeToggle/DarkModePage";
 import ProgressBarScrollPage from "./pages/progressBar/ProgressBarScrollPage";
 import ProgressBarPage from "./pages/progressBar/ProgressBarPage";
 import LoadingSkeletonPage from "./pages/loadingSkeleton/LoadingSkeletonPage";
+import InfiniteScrollPage from "./pages/infiniteScroll/infiniteScrollPage";
 
 function App() {
 	return (
@@ -33,6 +34,10 @@ function App() {
 				<Route
 					path="/loading-skeleton"
 					element={<LoadingSkeletonPage />}
+				/>
+				<Route
+					path="/infinite-scroll"
+					element={<InfiniteScrollPage />}
 				/>
 			</Routes>
 		</>
