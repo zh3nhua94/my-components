@@ -5,7 +5,7 @@ const CountdownButton = () => {
 	const [countdown, setCountdown] = useState(10);
 	const [isPurchased, setIsPurchased] = useState(false);
 	const [isButtonDisabled, setIsButtonDisabled] = useState(false);
-	const intervalRef = useRef<NodeJS.Timeout>();
+	const intervalRef = useRef<ReturnType<typeof setTimeout>>();
 
 	useEffect(() => {
 		// Function 1: Automatic countdown
