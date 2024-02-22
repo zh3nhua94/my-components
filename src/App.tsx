@@ -6,6 +6,7 @@ import ProgressBarScrollPage from "./pages/progressBar/ProgressBarScrollPage";
 import ProgressBarPage from "./pages/progressBar/ProgressBarPage";
 import LoadingSkeletonPage from "./pages/loadingSkeleton/LoadingSkeletonPage";
 import InfiniteScrollPage from "./pages/infiniteScroll/infiniteScrollPage";
+import CountdownButtonPage from "./pages/countdownButton/countdownButtonPage";
 
 function App() {
 	return (
@@ -38,6 +39,10 @@ function App() {
 				<Route
 					path="/infinite-scroll"
 					element={<InfiniteScrollPage />}
+				/>
+				<Route
+					path="/countdown-Button"
+					element={<CountdownButtonPage />}
 				/>
 			</Routes>
 		</>

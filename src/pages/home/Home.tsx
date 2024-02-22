@@ -32,6 +32,10 @@ const Home = () => {
 						title={"Progress Bar"}
 						link={"/progress-bar"}
 					/>
+					<MuiListItem
+						title={"Countdown Button"}
+						link={"/countdown-button"}
+					/>
 				</List>
 			</Box>
 		</Box>
