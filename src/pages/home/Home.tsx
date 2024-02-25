@@ -25,6 +25,10 @@ const Home = () => {
 						link={"/infinite-scroll"}
 					/>
 					<MuiListItem
+						title={"Lazy Loading Image"}
+						link={"/lazy-loading-img"}
+					/>
+					<MuiListItem
 						title={"Progress Bar (Scroll)"}
 						link={"/progress-bar-scroll"}
 					/>
