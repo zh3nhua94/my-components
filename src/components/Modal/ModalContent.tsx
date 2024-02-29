@@ -27,14 +27,22 @@ const ModalContent = ({ showModal, setShowModal }: Props) => {
 				className={isVisible ? "overlay active" : "overlay"}
 				onClick={closeModal}
 			></div>
-			<div className={isVisible ? "modal active" : "modal"}>
-				<div className="modal-content">I'm a modal dialog</div>
-				<button
-					className="modal-button"
-					onClick={closeModal}
-				>
-					Close
-				</button>
+			<div className={isVisible ? "modal-wrapper active" : "modal-wrapper"}>
+				<div className="modal-content">
+					<div
+						className="modal-close"
+						onClick={closeModal}
+					>
+						X
+					</div>
+					<div>I'm a modal dialog</div>
+					<button
+						className="modal-button"
+						onClick={closeModal}
+					>
+						Close
+					</button>
+				</div>
 			</div>
 		</>
 	);
