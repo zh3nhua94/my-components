@@ -40,6 +40,10 @@ const Home = () => {
 						title={"Countdown Button"}
 						link={"/countdown-button"}
 					/>
+					<MuiListItem
+						title={"Modal (Using Portal)"}
+						link={"/modal-portal"}
+					/>
 				</List>
 			</Box>
 		</Box>

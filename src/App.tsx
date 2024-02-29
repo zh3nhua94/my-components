@@ -8,6 +8,7 @@ import LoadingSkeletonPage from "./pages/loadingSkeleton/LoadingSkeletonPage";
 import InfiniteScrollPage from "./pages/infiniteScroll/infiniteScrollPage";
 import CountdownButtonPage from "./pages/countdownButton/countdownButtonPage";
 import LazyLoadingPage from "./pages/lazyLoading/LazyLoadingPage";
+import ModalPage from "./pages/Modal/ModalPage";
 
 function App() {
 	return (
@@ -48,6 +49,10 @@ function App() {
 				<Route
 					path="/lazy-loading-img"
 					element={<LazyLoadingPage />}
+				/>
+				<Route
+					path="/modal-portal"
+					element={<ModalPage />}
 				/>
 			</Routes>
 		</>

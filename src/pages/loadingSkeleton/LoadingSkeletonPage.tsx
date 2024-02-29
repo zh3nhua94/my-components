@@ -32,7 +32,7 @@ const LoadingSkeletonPage = () => {
 			baseColor="#ebebeb"
 			highlightColor="#f5f5f5"
 		>
-			<div style={{ maxWidth: "800px", margin: "0px auto", padding: "50px 0" }}>
+			<div className="page-container">
 				<h2>Method 1: Show Skeleton if no data</h2>
 				<div>
 					<h3>{posts[0]?.title || <Skeleton />}</h3>

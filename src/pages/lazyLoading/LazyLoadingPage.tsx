@@ -3,7 +3,7 @@ import LazyImage from "../../components/LazyLoading/LazyImage";
 
 const LazyLoadingPage = () => {
 	return (
-		<div style={{ maxWidth: "800px", margin: "0px auto", padding: "50px 0" }}>
+		<div className="page-container">
 			<div style={{ height: "100vh", textAlign: "center" }}>scroll to see lazy loading</div>
 			{/* Placeholder images with data-src attribute */}
 			<div className="text-container">

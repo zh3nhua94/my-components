@@ -17,10 +17,10 @@ const Pagination = () => {
 	const car = cars;
 
 	return (
-		<>
+		<div className="page-container">
 			<p style={{ textAlign: "center", color: "royalblue" }}>THE STYLING OF THE PAGINATION USES A BIT OF TAILWIND</p>
 			<PaginationTable posts={car} />
-		</>
+		</div>
 	);
 };
 

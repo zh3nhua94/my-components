@@ -12,7 +12,7 @@ const DarkModePage = () => {
 	return (
 		<ThemeProvider>
 			<div style={{ minHeight: "100vh" }}>
-				<div style={{ maxWidth: "800px", margin: "0px auto", padding: "50px 0" }}>
+				<div className="page-container">
 					<DarkModeToggle />
 					<p>
 						Knausgaard slow-carb Brooklyn, cronut blog portland same banh mi literally prism keffiyeh 8-bit. Readymade

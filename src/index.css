@@ -39,3 +39,9 @@ h3 {
 	font-size: 20px;
 	margin-bottom: 1em;
 }
+
+.page-container {
+	max-width: 800px;
+	margin: 0px auto;
+	padding: 50px 0;
+}

@@ -5,7 +5,7 @@ const ProgressBarPage = () => {
 	const [progressValue, setProgressValue] = useState(0);
 
 	return (
-		<div style={{ maxWidth: "800px", margin: "0px auto", padding: "50px 0" }}>
+		<div className="page-container">
 			<ProgressBar value={progressValue} />
 			<button
 				style={{ padding: "10px", border: "1px solid black" }}
