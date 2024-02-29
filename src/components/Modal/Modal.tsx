@@ -7,7 +7,10 @@ const Modal = () => {
 	const [showModal, setShowModal] = useState(false);
 
 	return (
-		<div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
+		<div
+			className="modal-component"
+			style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}
+		>
 			<button onClick={() => setShowModal(true)}>Show modal using a portal</button>
 			{showModal &&
 				createPortal(
