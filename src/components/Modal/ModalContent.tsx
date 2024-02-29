@@ -29,7 +29,12 @@ const ModalContent = ({ showModal, setShowModal }: Props) => {
 			></div>
 			<div className={isVisible ? "modal active" : "modal"}>
 				<div className="modal-content">I'm a modal dialog</div>
-				<button onClick={closeModal}>Close</button>
+				<button
+					className="modal-button"
+					onClick={closeModal}
+				>
+					Close
+				</button>
 			</div>
 		</>
 	);

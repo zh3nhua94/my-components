@@ -43,7 +43,7 @@
 	flex: 1;
 }
 
-.modal-component button {
+.modal-button {
 	padding: 10px;
 	background-color: #53c28b;
 	color: white;
