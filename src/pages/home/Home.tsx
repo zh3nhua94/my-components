@@ -44,6 +44,10 @@ const Home = () => {
 						title={"Modal (Using Portal)"}
 						link={"/modal-portal"}
 					/>
+					<MuiListItem
+						title={"Multi Step Form"}
+						link={"/multi-step-form"}
+					/>
 				</List>
 			</Box>
 		</Box>

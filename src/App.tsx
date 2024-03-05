@@ -9,6 +9,7 @@ import InfiniteScrollPage from "./pages/infiniteScroll/infiniteScrollPage";
 import CountdownButtonPage from "./pages/countdownButton/countdownButtonPage";
 import LazyLoadingPage from "./pages/lazyLoading/LazyLoadingPage";
 import ModalPage from "./pages/Modal/ModalPage";
+import MultiStepFormPage from "./pages/MultiStepForm/MultiStepFormPage";
 
 function App() {
 	return (
@@ -53,6 +54,10 @@ function App() {
 				<Route
 					path="/modal-portal"
 					element={<ModalPage />}
+				/>
+				<Route
+					path="/multi-step-form"
+					element={<MultiStepFormPage />}
 				/>
 			</Routes>
 		</>

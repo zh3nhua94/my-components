@@ -45,3 +45,14 @@ h3 {
 	margin: 0px auto;
 	padding: 50px 0;
 }
+
+button,
+button[type="submit"],
+button[type="button"] {
+	padding: 10px 20px;
+	background-color: #53c28b;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
