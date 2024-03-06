@@ -45,6 +45,10 @@ const Home = () => {
 						link={"/modal-portal"}
 					/>
 					<MuiListItem
+						title={"Input Validation"}
+						link={"/input-validation"}
+					/>
+					<MuiListItem
 						title={"Multi Step Form"}
 						link={"/multi-step-form"}
 					/>

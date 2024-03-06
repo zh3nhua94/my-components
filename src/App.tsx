@@ -11,6 +11,7 @@ import LazyLoadingPage from "./pages/lazyLoading/LazyLoadingPage";
 import ModalPage from "./pages/Modal/ModalPage";
 import MultiStepFormPage from "./pages/MultiStepForm/MultiStepFormPage";
 import StepperPage from "./pages/stepper/StepperPage";
+import InputValidationPage from "./pages/InputValidation/InputValidationPage";
 
 function App() {
 	return (
@@ -55,6 +56,10 @@ function App() {
 				<Route
 					path="/modal-portal"
 					element={<ModalPage />}
+				/>
+				<Route
+					path="/input-validation"
+					element={<InputValidationPage />}
 				/>
 				<Route
 					path="/multi-step-form"

@@ -25,7 +25,6 @@
 
 input:invalid {
 	outline: 2px solid red;
-	background-color: rgb(255, 255, 139);
 }
 
 .progress-container {
