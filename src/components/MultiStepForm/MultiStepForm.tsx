@@ -18,6 +18,7 @@ const MultiStepForm = () => {
 	const handleSubmit = (e: React.FormEvent) => {
 		e.preventDefault();
 		console.log(JSON.stringify(data));
+		alert("Form submitted: \n\n" + JSON.stringify(data));
 	};
 
 	const content = (
