@@ -10,6 +10,7 @@ import CountdownButtonPage from "./pages/countdownButton/countdownButtonPage";
 import LazyLoadingPage from "./pages/lazyLoading/LazyLoadingPage";
 import ModalPage from "./pages/Modal/ModalPage";
 import MultiStepFormPage from "./pages/MultiStepForm/MultiStepFormPage";
+import StepperPage from "./pages/stepper/StepperPage";
 
 function App() {
 	return (
@@ -58,6 +59,10 @@ function App() {
 				<Route
 					path="/multi-step-form"
 					element={<MultiStepFormPage />}
+				/>
+				<Route
+					path="/stepper"
+					element={<StepperPage />}
 				/>
 			</Routes>
 		</>

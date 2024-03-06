@@ -48,6 +48,10 @@ const Home = () => {
 						title={"Multi Step Form"}
 						link={"/multi-step-form"}
 					/>
+					<MuiListItem
+						title={"Stepper"}
+						link={"/stepper"}
+					/>
 				</List>
 			</Box>
 		</Box>

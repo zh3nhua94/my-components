@@ -1,0 +1,25 @@
+.stepper-container {
+	display: flex;
+	align-items: center;
+}
+
+.stepper-circle {
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+}
+
+.stepper-bar {
+	height: 4px;
+	width: 48px;
+}
+
+.stepper-circle.stepper-active,
+.stepper-bar.stepper-active {
+	background-color: #53c28b;
+}
+
+.stepper-circle.stepper-gray,
+.stepper-bar.stepper-gray {
+	background-color: #d1dbd5;
+}
